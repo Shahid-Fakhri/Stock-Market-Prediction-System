@@ -5,7 +5,7 @@ In recent years, there has been growing attention on incorporating data from soc
 ## Summary:
 To initiate the project, a comprehensive collection of stock data was assembled for five prominent stock tickers: APPL, AMZN, GOOG, FB, and TSLA. The dataset included news article headlines related to these stocks, enabling sentiment analysis. Another dataset was created by aggregating historical stock data, allowing for the exploration of correlations between sentiment scores and the historical performance of stocks. Subsequently, deep learning algorithms were applied to the historical stock data to facilitate prediction. The accuracy and error of the models were carefully measured, and the results were effectively summarized through the utilization of interactive Plotly Dash. This encompassed evaluation scores, informative graphs, and concise tables, providing a comprehensive overview of the project outcomes.
 * See flowchart below:
-
+![flowchart](https://github.com/Shahid-Fakhri/Stock-Market-Prediction-System/assets/83221922/3e48e3b2-58aa-42d9-a4ab-9eda686fb1a3)
 
 ## Data
 To obtain the article headlines for the specified stock tickers, the Python Beautifulsoup library was employed for web scraping from FinViz. FinViz is a renowned financial visualization website in the United States that offers a wide range of valuable information, including comprehensive trading data from major banks and regularly updated news headlines for various stocks. In order to gather historical stock data spanning five years, the Yahoo Finance website was scraped using the yfinance library, enabling access to a rich dataset for analysis and modeling purposes.
@@ -14,6 +14,7 @@ To obtain the article headlines for the specified stock tickers, the Python Beau
 The algorithm here I have used for the stock price prediction is the LSTM, Long short Term Memory networks, that has been observed as the most effective solution in time series forcasting. Long short-term memory (LSTM) is a recurrent neural network (RNN) architecture used in the field of deep learning. Unlike standard feedforward neural networks, LSTM has feedback connections. It can not only process single data points, but also entire sequences of data. LSTM models are able to store information over a period of time. LSTMs have an edge over conventional feed-forward neural networks and RNN in many ways. This is because of their property of selectively remembering patterns for long durations of time.
 
 ## Dashboard:
+![dashboard](https://github.com/Shahid-Fakhri/Stock-Market-Prediction-System/assets/83221922/edf7a53f-a611-47e3-8d61-7f679e427f68)
 
 ## Access to Material:
 The material provided in this repository is made available for reference and educational purposes. You are free to use and modify the material while adhering to the terms of the license mentioned in the repository. When utilizing or referencing this material, please give appropriate credit by mentioning the original creator and the research article:
